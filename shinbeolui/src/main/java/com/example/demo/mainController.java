@@ -22,7 +22,7 @@ public class mainController {
     public Map<String, String> getHello() {
 		logger.info("SUCCESS");
         Map<String, String> response = new HashMap<>();
-        response.put("message", "spring boot mapping test success main1");
+        response.put("message", "spring boot mapping test success main");
         return response;
     }
 }
